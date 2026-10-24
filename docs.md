@@ -1,0 +1,6 @@
+*24 Oct 2026*
+Refreshed my basics about git : 
+- main / master : the local repository/folder we have on  our disk
+- origin : the remote server/location where we are goingt to push or store our main/master
+- git init  : creates a hidden .git folder in our directory, to initialise a repo , basically asking git to track it (we still need to ass git add and commit to track)
+- git push -u origin master :  "push my local master branch to origin, and -u remembers the link so next time git push is enough."
