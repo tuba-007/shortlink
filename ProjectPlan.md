@@ -39,10 +39,10 @@ A URL shortener built and operated end to end on AWS.
 
 **Purpose:** nothing reaches `master` without review; every change is traceable.
 
-- [ ] `git init`, first commit, push to GitHub
-- [ ] Add `.gitignore` and README
-- [ ] Protect `master` (require pull request)
-- [ ] Complete one full branch → PR → merge cycle
+- [x] `git init`, first commit, push to GitHub
+- [x] Add `.gitignore` and README
+- [x] Protect `master` (require pull request)
+- [x] Complete one full branch → PR → merge cycle
 
 **Learn:** branches, PRs, commit messages, branch protection
 **Done when:** `master` is protected and one PR is merged.
