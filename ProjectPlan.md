@@ -37,15 +37,15 @@ A URL shortener built and operated end to end on AWS.
 
 ## Phase 1: Git Workflow
 
-**Purpose:** nothing reaches `main` without review; every change is traceable.
+**Purpose:** nothing reaches `master` without review; every change is traceable.
 
 - [ ] `git init`, first commit, push to GitHub
 - [ ] Add `.gitignore` and README
-- [ ] Protect `main` (require pull request)
+- [ ] Protect `master` (require pull request)
 - [ ] Complete one full branch → PR → merge cycle
 
 **Learn:** branches, PRs, commit messages, branch protection
-**Done when:** `main` is protected and one PR is merged.
+**Done when:** `master` is protected and one PR is merged.
 
 ## Phase 2: The App (API + Database)
 
