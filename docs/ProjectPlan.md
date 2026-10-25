@@ -20,8 +20,8 @@ A URL shortener built and operated end to end on AWS.
 - [ ] AWS account created
 - [ ] MFA enabled on root user, root not used for daily work
 - [ ] IAM/Identity Center user created for daily work
-- [ ] Billing budget alert set (e.g. $5/month)
-- [ ] Empty GitHub repo `shortlink` created
+- [x] Billing budget alert set (e.g. $5/month)
+- [x] Empty GitHub repo `shortlink` created
 
 ## Habits (Every Phase)
 
@@ -51,10 +51,10 @@ A URL shortener built and operated end to end on AWS.
 
 **Purpose:** a real service to operate.
 
-- [ ] `POST /shorten` stores code + long URL in Postgres
+- [x] `POST /shorten` stores code + long URL in Postgres
 - [ ] `GET /:code` redirects and increments clicks
 - [ ] `GET /stats/:code` returns the count
-- [ ] `GET /health`
+- [x] `GET /health`
 - [ ] Config via environment variables (no secrets in code)
 - [ ] Runs locally end to end
 
