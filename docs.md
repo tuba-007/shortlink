@@ -13,3 +13,7 @@ Python: FastAPI implementation:
 - The command `python -m venv .venv` creates a `.venv` folder where all the project's packages are installed.
 - Activate it in PowerShell with `.venv\Scripts\Activate.ps1`. The prompt then shows `(.venv)`.
 - `.venv/` is listed in `.gitignore` so the folder is not committed to Git.
+
+PIP - The python package Installer 
+- pip install something downloads that package from PyPI (the Python Package Index, a public online store of packages) and puts it in your environment. It comes bundled with Python, so you probably didn't need to install it separately
+- You can check what's installed : pip list
