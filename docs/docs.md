@@ -17,3 +17,25 @@ Python: FastAPI implementation:
 PIP - The python package Installer 
 - pip install something downloads that package from PyPI (the Python Package Index, a public online store of packages) and puts it in your environment. It comes bundled with Python, so you probably didn't need to install it separately
 - You can check what's installed : pip list
+
+REST API Structure I followed : 
+## Node.js equivalent of the FastAPI stack
+
+| Python                     | Node                                 |
+| -------------------------- | ------------------------------------ |
+| Python                     | Node.js (runtime)                    |
+| pip                        | npm                                  |
+| .venv + requirements.txt   | node_modules + package.json          |
+| FastAPI                    | Express                              |
+| uvicorn (separate server)  | built into Node (`app.listen(8000)`) |
+| pydantic (auto validation) | zod or manual checks                 |
+| `/docs` page (automatic)   | not automatic, needs a library       |
+| `fastapi dev main.py`      | `node --watch index.js`              |
+---------------------------------------------------------------------
+
+- I used "decorators @" to bind function definiton to methods n paths  
+- Used Basemodel which defines the request body 
+- defined 3 functions : health() , make_code() , shorten()
+- completed two paths/api :  /health , /shorten
+- fastapi automatically creates swagger page for the api added : /docs
+ 
