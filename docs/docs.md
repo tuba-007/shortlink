@@ -39,3 +39,6 @@ REST API Structure I followed :
 - completed two paths/api :  /health , /shorten
 - fastapi automatically creates swagger page for the api added : /docs
  
+ *27 OCT 2026*
+ -Completed the redirect function
+ -Completed status endpoint 
