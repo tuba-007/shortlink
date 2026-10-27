@@ -52,8 +52,8 @@ A URL shortener built and operated end to end on AWS.
 **Purpose:** a real service to operate.
 
 - [x] `POST /shorten` stores code + long URL in Postgres
-- [ ] `GET /:code` redirects and increments clicks
-- [ ] `GET /stats/:code` returns the count
+- [x] `GET /:code` redirects and increments clicks
+- [x] `GET /stats/:code` returns the count
 - [x] `GET /health`
 - [ ] Config via environment variables (no secrets in code)
 - [ ] Runs locally end to end
